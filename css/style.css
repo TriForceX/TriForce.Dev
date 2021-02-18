@@ -1,0 +1,46 @@
+/*
+ * StyleSheet File
+ * Developed by TriForce
+ * 
+ * Modified:  Feb. 18, 2021. 20:38 (UTC-3)
+ * Source:    https://github.com/TriForceX/TriForce.Dev
+ */
+
+body {
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    background: black;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+img {
+    outline: 0;
+    border: 0;
+}
+a, a:visited, a:hover, a:active, a:focus {
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+    color: white;
+}
+main {
+    position: static;
+    z-index: 0;
+}
+.github {
+    width: 360px;
+    height: 285px;
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.github > * {
+    position: absolute;
+    bottom: -65px;
+}
