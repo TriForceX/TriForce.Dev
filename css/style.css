@@ -29,8 +29,8 @@ main {
     z-index: 0;
 }
 .github {
-    width: 360px;
-    height: 285px;
+    width: 340px;
+    height: 270px;
     position: absolute;
     z-index: 10;
     left: 50%;
@@ -42,5 +42,5 @@ main {
 }
 .github > * {
     position: absolute;
-    bottom: -65px;
+    bottom: -50px;
 }
