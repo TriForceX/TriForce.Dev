@@ -2,10 +2,9 @@
  * JavaScript File
  * Developed by TriForce
  * 
- * Modified:  Feb. 18, 2021. 20:38 (UTC-3)
+ * Modified:  Mar. 08, 2021. 01:31 (UTC-3)
  * Source:    https://github.com/TriForceX/TriForce.Dev
  */
-
 let windowW = window.innerWidth;
 let windowH = window.innerHeight;
 let isDebug = false;
