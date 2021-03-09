@@ -2,7 +2,7 @@
  * StyleSheet File
  * Developed by TriForce
  * 
- * Modified:  Mar. 08, 2021. 01:31 (UTC-3)
+ * Modified:  Mar. 09, 2021. 01:12 (UTC-3)
  * Source:    https://github.com/TriForceX/TriForce.Dev
  */
 body {
@@ -26,20 +26,5 @@ a, a:visited, a:hover, a:active, a:focus {
 main {
     position: static;
     z-index: 0;
-}
-.github {
-    width: 340px;
-    height: 270px;
-    position: absolute;
-    z-index: 10;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.github > * {
-    position: absolute;
-    bottom: -50px;
+    cursor: pointer;
 }
