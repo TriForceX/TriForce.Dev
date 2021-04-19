@@ -2,7 +2,7 @@
  * JavaScript File
  * Developed by TriForce
  * 
- * Modified:  Mar. 09, 2021. 01:12 (UTC-3)
+ * Modified:  Apr. 18, 2021. 23:16 (UTC-3)
  * Source:    https://github.com/TriForceX/TriForce.Dev
  */
 let windowW = window.innerWidth;
@@ -16,7 +16,7 @@ let urlSrc = 'https://github.com/TriForceX';
 document.addEventListener('click', onMouseClick, false);
 
 function setup() {
-    background(0);
+    background(13, 17, 23);
     createCanvas(windowW, windowH);
     loadImage(imgSrc, function(img) {
         glitch = new Glitch(img);

@@ -2,13 +2,13 @@
  * StyleSheet File
  * Developed by TriForce
  * 
- * Modified:  Mar. 09, 2021. 01:12 (UTC-3)
+ * Modified:  Apr. 18, 2021. 23:16 (UTC-3)
  * Source:    https://github.com/TriForceX/TriForce.Dev
  */
 body {
     font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
     font-size: 12px;
-    background: black;
+    background: #0d1117;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
