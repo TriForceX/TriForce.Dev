@@ -7,7 +7,7 @@
  */
 let windowW = window.innerWidth;
 let windowH = window.innerHeight;
-let isDebug = false;
+let isDebug = true;
 let isLoaded = false;
 let glitch;
 let imgSrc = 'img/triforce.png';
