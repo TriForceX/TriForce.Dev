@@ -43,7 +43,7 @@ function draw() {
     }
 
     if (isDebug) {
-        fill(255, 255, 255);
+        fill(255, 255, 255, 127);
         textSize(12);
         text('FPS: '+floor(frameRate()), 10, 20);
         text('RES: '+windowW+' x '+windowH, 10, 35);
