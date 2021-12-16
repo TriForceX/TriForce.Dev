@@ -2,7 +2,7 @@
  * JavaScript File
  * Developed by TriForce
  * 
- * Modified:  Apr. 18, 2021. 23:16 (UTC-3)
+ * Modified:  Dec. 16, 2021. 07:24 (UTC-3)
  * Source:    https://github.com/TriForceX/TriForce.Dev
  */
 let windowW = window.innerWidth;
@@ -14,6 +14,15 @@ let imgSrc = 'img/triforce.png';
 let urlSrc = 'https://github.com/TriForceX';
 
 document.addEventListener('click', onMouseClick, false);
+
+function appendGithub() {
+    if (!document.getElementById("github")) { 
+        var div = document.createElement("div");
+        div.id = "github";
+        div.innerHTML = '<a title="@TriForceX" href="'+urlSrc+'">Go to my projects <img src="https://github.githubassets.com/favicons/favicon-dark.png" width="20"></a>';
+        document.getElementsByTagName("main")[0].appendChild(div);
+    }
+}
 
 function setup() {
     background(13, 17, 23);
@@ -30,6 +39,7 @@ function draw() {
 
     if (isLoaded) {
         glitch.show();
+        appendGithub();
     }
 
     if (isDebug) {
