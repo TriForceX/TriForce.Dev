@@ -19,7 +19,7 @@ function appendGithub() {
     if (!document.getElementById("github")) { 
         var div = document.createElement("div");
         div.id = "github";
-        div.innerHTML = '<a title="@TriForceX" href="'+urlSrc+'">Go to my projects <img src="https://github.githubassets.com/favicons/favicon-dark.png" width="20"></a>';
+        div.innerHTML = '<a title="@TriForceX" href="'+urlSrc+'">TriForce Dev <img src="https://github.githubassets.com/favicons/favicon-dark.png" width="20"></a>';
         document.getElementsByTagName("main")[0].appendChild(div);
     }
 }
